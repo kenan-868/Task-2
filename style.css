@@ -1,11 +1,23 @@
 body{ margin: 0; padding: 0px; }
-.bg-color{ background-color: #009999;}
+.bg-color{ background-color: #226565;}
 .white{color: white;}
+.black{ background-color: #404040;}
 .flex{ display: flex;}
+.j-between{justify-content: space-between;}
+.j-center{
+    direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .nav-menu{
     list-style: none;
-    justify-content: end;
+    justify-content: space-between;
     display: flex;
 }
-.margin{margin-left: 35px;}
+.margin-l{margin-left: 35px;}
 .font{font-family: 'Lato', sans-serif;}
+.margin{margin: 20px 60px 150px 30px;}
+.p-button{padding: 15px 40px;}
+.font-size{font-size: 100px;}
+.border{ border-radius: 35px;}
+.margin-bottom{ margin-bottom: 120px;}
